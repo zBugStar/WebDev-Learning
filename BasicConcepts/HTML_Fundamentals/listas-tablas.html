@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas y tablas en HTMl</title>
+</head>
+<body>
+    <!-- Lista desordenada  -->
+     <ul>
+        <li> Manzanas</li>
+        <li>Peras</li>
+        <li>bananos</li>
+     </ul>
+
+    <!-- Lista ordenada -->
+     <ol>
+        <li>Manzanas</li>
+        <li>Peras</li>
+        <li>bananos</li>
+     </ol>
+
+     <!-- Lista de definicion -->
+      <dl>
+        <dt>HTML</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, odit.</dd>
+        <dt>CSS</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, odit.</dd>
+      </dl>
+
+      <!-- Tablas basica -->
+       <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ubicacion</th>
+        </tr>
+        <tr>
+            <td>Joaquin</td>
+            <td>25</td>
+            <td>Colombia</td>
+        </tr>
+        <tr>
+            <td>Yorbin</td>
+            <td>13</td>
+            <td>Panama</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>25</td>
+            <td>Bolivia</td>
+        </tr>
+       </table>
+       <br>
+
+       <!-- Tabla mejorada -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ubicacion</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Joaquin</td>
+                    <td>25</td>
+                    <td>Colombia</td>
+                </tr>
+                <tr>
+                    <td>Yorbin</td>
+                    <td>13</td>
+                    <td>Panama</td>
+                </tr>
+                <tr>
+                    <td>Jose</td>
+                    <td>25</td>
+                    <td>Bolivia</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Tabla Avanzada -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th colspan="2">Descripcion</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Compudador</td>
+                    <td>Marca</td>
+                    <td>HP</td>
+                    <td rowspan="2">800</td>
+                </tr>
+                <tr>
+                    <td>Procesador</td>
+                    <td>Intel core i7</td>
+            
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                  
+                    <td colspan="2">Samsung galaxy s21</td>
+                    <td>700</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <!-- Lista anidada -->
+        <ul>
+            <li>Comprar Viveres
+            <ul>
+                <li>Leche</li>
+                <li>Pan</li>
+                <li>frutas
+                    <ul>
+                        <li>Manzana</li>
+                        <li>Pera</li>
+                        <li>Maracuya</li>
+                    </ul>
+                    
+                </li>
+                <li>Verduras
+                    <ul>
+                        <li>Zanahoria</li>
+                        <li>Lechuga</li>
+                        <li>Tomate</li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+        </ul>
+    
+</body>
+</html>
