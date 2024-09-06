@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campos formulario</title>
+</head>
+<body>
+    <!-- Campos formulario -->
+    <form action="procesar.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese aqui su nombre">
+        <br>
+        <label for="Contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese aqui su contraseña">
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese aqui su email">
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Ingrese aqui su telefono">
+        <br>
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        <br>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad">
+        <br>
+        <label for="mayoredad">¿Eres mayor de edad?</label>
+        <input type="radio" id="Si" name="edad" value="Si">
+        <label for="Si">Si</label>
+        <input type="radio" id="No" name="edad" value="No">
+        <label for="No">No</label>
+        <br>
+        <label for="genero">Genero:</label>
+        <input type="checkbox" id="genero" name="genero" value="genero">
+        <label for="genero">Masculino</label>
+        <input type="checkbox" id="genero" name="genero" value="genero">
+        <label for="genero">Femenino</label>
+        <br>
+        <label for="Comentarios">Comentarios:</label>
+        <textarea name="comentarios" id="comentarios" cols="20" rows="6"></textarea>
+        <br>
+        <label for="Pais">Pais: </label>
+        <select name="pais" id="pais" multiple>
+            <option value="">-- Selecciona un pais --</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Peru">Peru</option>
+        </select>
+        <br>
+        <label for="archivo">Cargar archivo</label>
+        <input type="file" name="archivo" id="archivo">
+        <br>
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="url">Sitio Web:</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <label for="rango">Rango:</label>
+        <input type="range" name="rango" id="rango" min="2" max="30">
+        <input type="hidden" id="codigo-secreto" name="codigo-secreto">
+
+
+
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Restablecer">
+    </form>
+</body>
+</html>
