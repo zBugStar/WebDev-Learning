@@ -1,0 +1,68 @@
+/* Selector universal */
+*{
+    margin: 0;
+    padding: 1;
+} 
+
+body{
+    background-color: lightgray;
+    
+}
+
+
+/* Selector por elemento */
+h1{
+    font-size: 48px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-color: crimson;
+}
+
+h2{
+    font-size: 36px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Selector por id - se usa "#" */
+
+#titulos-articulos{
+    font-size: 36px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+/* Selector por clase - se usa "." */
+.titulos-articulos{
+    font-size: 24px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+}
+
+.borde-gris{
+    border: 2px solid gray;
+}
+
+/* Selector multiple */
+h1, p , .borde-gris{
+    background-color: blueviolet;
+    color: white;
+
+}
+
+/* Selector descendente child - nested*/
+ul li{
+    list-style: number;
+    padding: auto;
+    color: cadetblue;
+    font-size: 24px;
+}
+
+/* Selector de hijos directos  */
+ol > li{
+    list-style: circle;
+    padding: auto;
+    color: darkblue;
+    font-size: 24px;
+}
+
