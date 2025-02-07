@@ -1,0 +1,37 @@
+h1{
+    color:cornflowerblue
+}
+
+.caja1{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+h2{
+    color: darkorange;
+}
+
+h3{
+    color: darkred;
+}
+
+/* RGBA este sirve para añadir transparencia */
+
+h4{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+/* HSL o HSLA Para cambiar la saturacion, luminocidad, tono y trasparencia */
+h5{
+    color: hsla(281, 79%, 24%, 0.966);
+    font-size: 20px;
+}
+
+/* utilizar la palabra trasparent para añadir secciones trasparentes */
+h6{
+    color: transparent;
+    font-size: 20px;
+}

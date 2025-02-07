@@ -1,0 +1,71 @@
+a{
+    font-size: 24px;
+    color: pink;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: red;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+a:active{
+    color: blue;
+    font-size: 20px;
+    text-decoration: dotted;
+}
+
+.caja1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.caja1:hover{
+    background-color: blue;
+}
+
+li:nth-child(odd){
+    background-color: yellow;
+}
+
+li:nth-child(even){
+    background-color: green;
+}
+
+/* Pseudo elemento before y after */
+p::before{
+    content: "♪↨";
+}
+
+p::after{
+    content: "♫";
+}
+
+/* first-line y firts-letter  */
+
+p::first-letter{
+    font-size: 32px;
+    color: red;
+}
+
+p::first-line{
+    font-size: 30px;
+    color: blue;
+}
+
+/* Selector por atributo */
+input[type="text"]{
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+input[type="password"]{
+    width: 200px;
+    height: 30px;
+    border: 2px solid red;
+}

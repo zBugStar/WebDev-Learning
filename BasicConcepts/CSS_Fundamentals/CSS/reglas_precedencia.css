@@ -1,0 +1,22 @@
+/* p{
+    font-size: 35px;
+    color: blue;
+} */
+
+#elemento1{
+    color: red;
+}
+
+.caja-elemento1{
+    color: green !important;
+}   
+
+p{
+    color: blue;
+    font-size: 22px;
+}
+
+p{
+    color: yellow;
+    font-size: 36px;
+}
