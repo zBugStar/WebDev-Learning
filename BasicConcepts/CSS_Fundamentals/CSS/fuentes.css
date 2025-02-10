@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Machinimi', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    font-family: "Arial", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 24px;
+  
+}
+
+#fuentes p span{
+    font-family: 'Times New Roman', 'Arial Narrow', Arial, sans-serif;
+    background-color: cornflowerblue;
+}
+
+@font-face {
+    font-family: "Machinimi";
+    src: url("../Fuentes/MachineryScript_PERSONAL_USE_ONLY.otf");
+}
+
+.articulo1{
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: dashed;
+}
