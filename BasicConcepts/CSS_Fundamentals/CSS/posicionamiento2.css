@@ -1,0 +1,36 @@
+.caja{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.caja2{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+
+    /* con el posicionamiento absoluto puedo moverlo a donde yo quiera dentro de su contenedor mas cercano*/
+}
+
+.contenedor{
+    position: relative;
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 400px;
+}
+
+.ab_elemento{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}

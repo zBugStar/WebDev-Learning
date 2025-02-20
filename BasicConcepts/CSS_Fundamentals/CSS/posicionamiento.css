@@ -1,0 +1,77 @@
+/* Posicionamiento
+position: static | relative | absolute | fixed | sticky;
+*/
+
+p{
+    border: 1px solid black;
+    background-color: #f4f4f4;
+    font-size: 2rem;
+    position: static; 
+    width: 700px;
+    margin: auto;
+    /* COn el relative ninguna modificacion de posicion tendra efecto sobre la estructura seleccionada */
+
+}
+
+.P1{
+    background-color: lightblue;
+    position: relative;
+    /* top: 20px; */
+    left: 50px;
+    bottom: -60px;
+    z-index: 1;
+
+    /* Con el relative se puede modificar la posicion de la estructura seleccionada */
+
+}
+
+.P2{
+    background-color: lightgreen;
+    position: relative;
+    top: 20px;
+    left: 40px;
+    bottom: -60px;
+    z-index: 0;
+
+    /* Con el absolute se puede modificar la posicion de la estructura seleccionada */
+
+}
+
+.contenedor{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    font-size: 2rem;
+    position: relative; 
+    width: 600px;
+    height: 600px;
+    /* COn el relative ninguna modificacion de posicion tendra efecto sobre la estructura seleccionada */
+}
+
+.rl_elemento{
+    background-color: lightblue;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    bottom: 200px;
+    /* Con el relative se puede modificar la posicion de la estructura seleccionada */
+}
+
+.center{
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    bottom: 200px;
+    /* Con el relative se puede modificar la posicion de la estructura seleccionada */
+}
